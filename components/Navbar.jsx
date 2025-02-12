@@ -45,7 +45,7 @@ const Navbar = () => {
               <p className='w-[85%] md:w-[90%] py-4'>Let's build something legendary together</p>
             </div>
           </div>
-          <div className=''>
+          <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
                 <li className='py-4 text-sm'>Home</li>
@@ -63,6 +63,10 @@ const Navbar = () => {
                 <li className='py-4 text-sm'>Contact</li>
               </Link>
             </ul>
+            <div className='pt-40'>
+              <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
