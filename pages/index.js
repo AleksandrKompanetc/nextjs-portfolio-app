@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Main from "@/components/Main";
+import About from "@/components/About";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -17,6 +18,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Main />
+      <About />
     </div>
   );
 }
