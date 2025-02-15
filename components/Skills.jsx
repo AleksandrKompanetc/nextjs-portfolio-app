@@ -22,7 +22,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/assets/html5.svg' width={64} height={64} alt='html5' />
+                <Image src='/assets/css3.svg' width={64} height={64} alt='html5' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>CSS</h3>
@@ -32,50 +32,60 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/assets/html5.svg' width={64} height={64} alt='html5' />
+                <Image src='/assets/javascript.svg' width={64} height={64} alt='html5' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h3>JavaScript</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/assets/html5.svg' width={64} height={64} alt='html5' />
+                <Image src='/assets/react.svg' width={64} height={64} alt='html5' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h3>React</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/assets/html5.svg' width={64} height={64} alt='html5' />
+                <Image src='/assets/tailwind.svg' width={64} height={64} alt='html5' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h3>Tailwind</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/assets/html5.svg' width={64} height={64} alt='html5' />
+                <Image src='/assets/firebase.svg' width={64} height={64} alt='html5' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h3>Firebase</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src='/assets/html5.svg' width={64} height={64} alt='html5' />
+                <Image src='/assets/github.svg' width={64} height={64} alt='html5' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h3>Github</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src='/assets/shopify.svg' width={64} height={64} alt='html5' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Shopify</h3>
               </div>
             </div>
           </div>
