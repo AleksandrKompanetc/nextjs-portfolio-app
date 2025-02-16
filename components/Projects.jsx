@@ -1,7 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import Link from 'next/link'
 import ProjectItem from './ProjectItem'
+import propertyImg from '../public/assets/project1.jpg'
+import cryptoImg from '../public/assets/project2.jpg'
+import netflixImg from '../public/assets/project3.jpg'
+import twitchImg from '../public/assets/project4.jpg'
 
 const Projects = () => {
   return (
@@ -10,7 +13,26 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5] '>Projects</p>
         <h2 className='py-4'>What i've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          <ProjectItem />
+          <ProjectItem 
+            title='Property Finder' 
+            backgroundImg={propertyImg} 
+            projectUrl='/property' 
+          />
+          <ProjectItem 
+            title='Crypto App' 
+            backgroundImg={cryptoImg} 
+            projectUrl='/property' 
+          />
+          <ProjectItem 
+            title='Property Finder'
+            backgroundImg={netflixImg} 
+            projectUrl='/property' 
+          />
+          <ProjectItem 
+            title='Property Finder'
+            backgroundImg={twitchImg} 
+            projectUrl='/property' 
+          />
         </div>
       </div>
     </div>
