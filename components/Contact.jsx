@@ -39,7 +39,11 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form action="">
-                <div className='grid '></div>
+                <div className='grid md:grid-cols-2 gap-4 w-full py-2 '>
+                  <div className='flex flex-col'>
+                    <label className='uppercase text-sm py-2 ' htmlFor="">Name</label>
+                  </div>
+                </div>
               </form>
             </div>
           </div>
