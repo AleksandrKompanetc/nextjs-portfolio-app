@@ -1,4 +1,8 @@
 import React from 'react'
+import { FaLinkedinIn } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+import { AiOutlineMail } from 'react-icons/ai'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Contact = () => {
   return (
@@ -50,6 +54,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div>
+                  Name
                   <label className='uppercase text-sm py-2'>Email</label>
                   <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
                 </div>
