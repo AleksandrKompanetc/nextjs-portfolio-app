@@ -7,10 +7,13 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
+  const [shadow, setShadow] = useState(false)
 
   const handleNav = () => {
     setNav(!nav)
   }
+
+  
 
   return (
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
