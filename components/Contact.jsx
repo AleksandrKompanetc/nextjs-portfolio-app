@@ -21,8 +21,7 @@ const Contact = () => {
                 <p>Front-End Developer</p>
                 <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
               </div>
-            </div>
-            <div>
+              <div>
               <p className='uppercase pt-8'>Connect With Me</p>
               <div className='flex items-center justify-between py-4'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
@@ -39,22 +38,22 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+            </div>
           </div>
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form action="">
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2 '>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2 ' htmlFor="">Name</label>
+                    <label className='uppercase text-sm py-2' htmlFor="">Name</label>
                     <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
                   </div>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2 ' htmlFor="">Phone Number</label>
+                    <label className='uppercase text-sm py-2' htmlFor="">Phone Number</label>
                     <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
                   </div>
                 </div>
                 <div>
-                  Name
                   <label className='uppercase text-sm py-2'>Email</label>
                   <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
                 </div>
