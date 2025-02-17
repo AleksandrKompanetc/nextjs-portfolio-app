@@ -14,7 +14,7 @@ const Contact = () => {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full'>
               <div className=''>
-                <img className='rounded-xl hover:scale-105 ease-in duration-300' src="..public/assets/comp.jpg" alt="" />
+                <img className='rounded-xl hover:scale-105 ease-in duration-300' src="/assets/comp.jpg" alt="" />
               </div>
               <div>
                 <h2 className='py-2 '>Name here</h2>
@@ -61,6 +61,10 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Subject</label>
                   <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                </div>
+                <div className='flex flex-col py-2'>
+                  <label className='uppercase text-sm py-2'>Message</label>
+                  <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
                 </div>
               </form>
             </div>
